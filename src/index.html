@@ -136,12 +136,11 @@
             </svg>
           </div>
           <ul class="menu__list">
-            <li class="menu__link"><a href="#">про меня</a></li>
-            <li class="menu__link"><a href="#">мой опыт</a></li>
-            <li class="menu__link"><a href="#">мои навыки</a></li>
-            <li class="menu__link"><a href="#">мои работы</a></li>
-            <li class="menu__link"><a href="#">прайс-лист</a></li>
-            <li class="menu__link"><a href="#">контакты</a></li>
+            <li class="menu__link"><a href="#about">про меня</a></li>
+            <li class="menu__link"><a href="#resume">мой опыт</a></li>
+            <li class="menu__link"><a href="#skills">мои навыки</a></li>
+            <li class="menu__link"><a href="#portfolio">мои работы</a></li>
+            <li class="menu__link"><a href="#contacts">контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -159,12 +158,12 @@
         </div>
         <h1 class="title title_fz48 promo__title">Я frontend-разработчик</h1>
         <div class="promo__btns">
-          <a href="#" class="promo__link btn"> Портфолио</a>
-          <a href="#" class="promo__link">Про меня</a>
+          <a href="#portfolio" class="promo__link btn"> Портфолио</a>
+          <a href="#about" class="promo__link">Про меня</a>
         </div>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <div class="about__wrapper">
           <div class="about__photo">
@@ -222,7 +221,7 @@
         </div>
       </div>
     </section>
-    <section class="resume">
+    <section id="resume"class="resume">
       <div class="container">
         <h2 class="title title_fz16 title__section-title">Опыт</h2>
         <div class="title title_fz36 title__section-subtitle">
@@ -350,7 +349,7 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section id="skills"class="skills">
       <div class="container">
         <h2 class="title title_fz16 title__section-title">Навыки</h2>
         <div class="title title_fz36 title__section-subtitle">
@@ -510,7 +509,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="container">
         <h2 class="title title_fz16 title__section-title">Портфолио</h2>
         <div class="title title_fz36 title__section-subtitle">Мои работы</div>
@@ -531,7 +530,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <div class="container">
         <div class="contacts__wrapper">
           <div class="contacts__photo">
@@ -544,7 +543,7 @@
             </div>
             <div class="divider"></div>
             <div class="title title_fz14 contacts__text">
-              Любым удобным для Вас способом
+              Вы можете меня найти онлайн:
             </div>
             <div class="contacts__social">
               <a href="https://t.me/so_matveev" class="contacts__link">
@@ -560,26 +559,20 @@
                 <img src="./icons/social/facebook.svg" alt="facebook" />
               </a>
             </div>
-            <div class="title title_fz14 contacts__text">
-              Или оставьте Ваши данные и я сам Вам напишу:
-            </div>
-            <form action="#" class="contacts__form">
-              <div class="contacts__input">
-                <input name="name" id="name" type="text" />
-                <label for="name">Ваше имя</label>
+
+            <div class="contacts__details">
+              <div class="divider"></div>
+              <div class="title title_fz14 contacts__text">
+                Мои контактные данные :
               </div>
-              <div class="contacts__input">
-                <input name="email" type="email" />
-                <label for="email">Ваша почта</label>
+              <div class="contacts__details-item">
+                <img src="./icons/contact/smartphone-call.png" alt="phone" />
+                <a href="tel:+79055161099" >8(905)-516-10-99</a>
               </div>
-              <div class="contacts__textarea">
-                <textarea name="text" id="text"></textarea>
-                <label for="text">Ваше сообщение</label>
+              <div class="contacts__details-item">
+                <img src="./icons/contact/email.png" alt="email" />
+                <a href="mailto:matveev.stanislav@yahoo.com" >matveev.stanislav@yahoo.com</a>
               </div>
-              <div>
-                <button class="contacts__btn btn">Отправить сообщение</button>
-              </div>
-            </form>
           </div>
         </div>
       </div>

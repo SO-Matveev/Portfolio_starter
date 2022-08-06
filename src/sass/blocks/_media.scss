@@ -202,6 +202,10 @@
     }
   }
   .promo {
+    padding-top: 45px;
+    .promo__link-hidden {
+      display: none;
+    }
     background: url("../../img/main.jpg") no-repeat 65% / cover;
     &__btns {
       margin-top: 30px;

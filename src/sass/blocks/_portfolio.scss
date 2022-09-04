@@ -4,14 +4,32 @@
     margin-top: 60px;
     display: grid;
     justify-content: space-between;
-    grid-template: repeat(1, 280px) / repeat(3, 280px);
-    grid-auto-rows: 280px;
+    grid-template: repeat(1, 380px) / repeat(3, 380px);
+    grid-auto-rows: 380px;
     gap: 5px;
   }
   &__item {
+    position: relative;
+    width: 18rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    word-wrap: break-word;
     transition: all 0.6s;
-    img {
+    &-img {
+      display: block;
+      height: 180px;
       width: 100%;
+    }
+    &-body {
+      padding: 1.25rem;
+    }
+    &-link-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    &-icon {
+      height: 30px;
+      width: 30px;
     }
     &:hover {
       transform: scale(1.05);

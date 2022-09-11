@@ -30,8 +30,8 @@
   }
   .portfolio {
     &__wrapper {
-      grid-template-columns: repeat(auto-fit, 280px);
-      grid-auto-rows: 280px;
+      grid-template-columns: repeat(auto-fit, 380px);
+      grid-auto-rows: 380px;
       justify-content: space-around;
       row-gap: 35px;
     }
@@ -81,6 +81,14 @@
   .skills {
     &__items {
       padding: 0 20px;
+    }
+  }
+  .portfolio {
+    &__wrapper {
+      grid-template-columns: repeat(2, 290px);
+      grid-auto-rows: 380px;
+      justify-content: space-between;
+      row-gap: 35px;
     }
   }
   .contacts {
@@ -204,6 +212,11 @@
   .skills {
     &__items {
       margin-top: 20px;
+    }
+  }
+  .portfolio {
+    &__wrapper {
+      grid-template-columns: 1fr;
     }
   }
   .contacts {
